@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "C#: BlazorExpenseTraker.API [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/BlazorExpenseTraker.API/BlazorExpenseTraker.API.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        },
+        {
+            "name": "C#: BlazorExpenseTraker.UI [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/BlazorExpenseTraker.UI/BlazorExpenseTraker.UI.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        }
+    ]
+}
