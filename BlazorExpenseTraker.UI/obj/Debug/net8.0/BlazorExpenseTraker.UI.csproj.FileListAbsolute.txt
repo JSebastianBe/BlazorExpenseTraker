@@ -1038,3 +1038,4 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/webcil/BlazorExpenseTraker.Model.wasm
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/compressed/oxxu2lj3r5.gz
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/compressed/k0jqwx64ay.gz
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.sourcelink.json

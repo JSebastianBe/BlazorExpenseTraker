@@ -1,0 +1,34 @@
+﻿@page "/categorydetails"
+@using BlazorExpenseTraker.Model
+
+<h1>CategoryDetails</h1>
+
+<EditForm Model="@category" OnValidSubmit="SaveCategory">
+    <DataAnnotationsValidator/>
+    <!--<ValidationSummary/>-->
+
+    <table class="table">
+        <tr>
+            <td>Nombre</td>
+            <td><input type="text" @bind="category.name"></td>
+        </tr>
+        <tr>
+            <td colspan="2"> <ValidationMessage For="@(() => category.name)"/> </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Guardar">
+                <input type="button" value="Cancelar">
+            </td>
+        </tr>
+    </table>
+
+</EditForm>
+
+@code {
+    Category category = new Category();
+
+    protected void SaveCategory(){
+
+    }
+}
