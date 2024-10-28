@@ -1,5 +1,15 @@
+using BlazorExpenseTraker.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
+
+IConfigurationRoot config = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .AddEnvironmentVariables()
+    .Build();
+
+var SqlConnectionConfiguration = new SqlConfiguration(config.GetConnectionString("SqlConnection"));
+builder.Services.AddSingleton(SqlConnectionConfiguration);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
