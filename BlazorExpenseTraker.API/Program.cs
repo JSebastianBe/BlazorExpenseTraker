@@ -1,4 +1,5 @@
 using BlazorExpenseTraker.Data;
+using BlazorExpenseTraker.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ IConfigurationRoot config = new ConfigurationBuilder()
     .AddEnvironmentVariables()
     .Build();
 
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 var SqlConnectionConfiguration = new SqlConfiguration(config.GetConnectionString("SqlConnection"));
 builder.Services.AddSingleton(SqlConnectionConfiguration);
 // Add services to the container.

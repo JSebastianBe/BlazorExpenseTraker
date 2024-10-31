@@ -3,27 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.UI", "BlazorExpenseTraker.UI\BlazorExpenseTraker.UI.csproj", "{710AA2A4-13FC-436D-9CFA-CF9DBFD7B073}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.Model", "BlazorExpenseTraker.Model\BlazorExpenseTraker.Model.csproj", "{8168F210-8CB2-4BCC-80F2-6CCA5480F427}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.Data", "BlazorExpenseTraker.Data\BlazorExpenseTraker.Data.csproj", "{F34FA9ED-57E6-4EDF-92F8-F445195D310A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.API", "BlazorExpenseTraker.API\BlazorExpenseTraker.API.csproj", "{9707E0AD-9D92-421C-9F26-88AE909146F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.UI", "BlazorExpenseTraker.UI\BlazorExpenseTraker.UI.csproj", "{DDE30820-2741-4FF6-9546-49962C69FB70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{710AA2A4-13FC-436D-9CFA-CF9DBFD7B073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{710AA2A4-13FC-436D-9CFA-CF9DBFD7B073}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{710AA2A4-13FC-436D-9CFA-CF9DBFD7B073}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{710AA2A4-13FC-436D-9CFA-CF9DBFD7B073}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8168F210-8CB2-4BCC-80F2-6CCA5480F427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8168F210-8CB2-4BCC-80F2-6CCA5480F427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8168F210-8CB2-4BCC-80F2-6CCA5480F427}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,5 +29,12 @@ Global
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE30820-2741-4FF6-9546-49962C69FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE30820-2741-4FF6-9546-49962C69FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE30820-2741-4FF6-9546-49962C69FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE30820-2741-4FF6-9546-49962C69FB70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

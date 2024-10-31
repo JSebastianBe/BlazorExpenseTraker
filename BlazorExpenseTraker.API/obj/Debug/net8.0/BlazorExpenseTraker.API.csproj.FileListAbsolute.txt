@@ -35,3 +35,11 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/BlazorExpenseTraker.Model.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/BlazorExpenseTraker.Data.pdb
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/BlazorExpenseTraker.Model.pdb
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/Dapper.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/System.Data.SqlClient.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/runtimes/win-arm64/native/sni.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/runtimes/win-x64/native/sni.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/runtimes/win-x86/native/sni.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.API/obj/Debug/net8.0/BlazorExpenseTraker.API.sourcelink.json

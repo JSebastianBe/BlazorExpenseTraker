@@ -1,44 +1,24 @@
 {
   "Files": [
     {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/wwwroot/_framework/blazor.webassembly.js",
-      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/projectbundle/BlazorExpenseTraker.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorExpenseTraker.UI.bundle.scp.css"
     },
     {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/compressed/89ugexu1cv.gz",
-      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/bundle/BlazorExpenseTraker.UI.styles.css",
-      "PackagePath": "staticwebassets/BlazorExpenseTraker.UI.styles.css"
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/css/app.css",
-      "PackagePath": "staticwebassets/css/app.css"
-    },
-    {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
-    },
-    {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
       "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
-    },
-    {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/icon-192.png",
-      "PackagePath": "staticwebassets/icon-192.png"
-    },
-    {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
-    },
-    {
-      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/sample-data/weather.json",
-      "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorExpenseTraker.UI.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -5,8 +5,8 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.AssemblyInfoInputs.cache
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.AssemblyInfo.cs
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.csproj.CoreCompileInputs.cache
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.sourcelink.json
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/refint/BlazorExpenseTraker.Model.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.pdb
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/ref/BlazorExpenseTraker.Model.dll
-/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.Model/obj/Debug/net8.0/BlazorExpenseTraker.Model.sourcelink.json
