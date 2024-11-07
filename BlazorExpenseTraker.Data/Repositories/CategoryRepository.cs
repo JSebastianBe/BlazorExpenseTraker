@@ -20,7 +20,7 @@ public class CategoryRepository : ICategoryRepository
     public async Task<bool> DeleteCategory(int id)
     {
         var db = dbConnection();
-        var sql = @" DELETE FROM Categories WHERE id = @id";
+        var sql = @" DELETE FROM Categories WHERE id = @Id";
 
         var resultado = await db.ExecuteAsync(sql, new {id});
 
@@ -46,9 +46,9 @@ public class CategoryRepository : ICategoryRepository
     public async Task<bool> InsertCategory(Category category)
     {
         var db = dbConnection();
-        var sql = @" INSERT INTO Categories (name) VALUES (@name)";
+        var sql = @" INSERT INTO Categories (name) VALUES (@Name)";
 
-        var resultado = await db.ExecuteAsync(sql, new {category.name});
+        var resultado = await db.ExecuteAsync(sql, new {category.Name});
 
         return resultado > 0;
     }
@@ -56,9 +56,9 @@ public class CategoryRepository : ICategoryRepository
     public async Task<bool> UpdateCategory(Category category)
     {
         var db = dbConnection();
-        var sql = @" UPDATE Categories SET name = @name WHERE id = @id";
+        var sql = @" UPDATE Categories SET name = @Name WHERE id = @Id";
 
-        var resultado = await db.ExecuteAsync(sql, new {category.name, category.id});
+        var resultado = await db.ExecuteAsync(sql, new {category.Name, category.Id});
 
         return resultado > 0;
     }

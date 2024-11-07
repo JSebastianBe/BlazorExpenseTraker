@@ -29,7 +29,7 @@ namespace BlazorExpenseTraker.API.Controllers
             if(category == null)
                 return BadRequest();
 
-            if(category.name.Trim() == string.Empty)
+            if(category.Name.Trim() == string.Empty)
                 ModelState.AddModelError("name", "El nombre de la categoría no puede ir vacío");
             
             if(!ModelState.IsValid)
@@ -45,7 +45,7 @@ namespace BlazorExpenseTraker.API.Controllers
             if(category == null)
                 return BadRequest();
 
-            if(category.name.Trim() == string.Empty)
+            if(category.Name.Trim() == string.Empty)
                 ModelState.AddModelError("name", "El nombre de la categoría no puede ir vacío");
             
             if(!ModelState.IsValid)

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.API", "BlazorExpenseTraker.API\BlazorExpenseTraker.API.csproj", "{9707E0AD-9D92-421C-9F26-88AE909146F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.UI", "BlazorExpenseTraker.UI\BlazorExpenseTraker.UI.csproj", "{DDE30820-2741-4FF6-9546-49962C69FB70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorExpenseTraker.UI", "BlazorExpenseTraker.UI\BlazorExpenseTraker.UI.csproj", "{8462CE87-4159-4A45-903F-405E04DCBA6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9707E0AD-9D92-421C-9F26-88AE909146F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DDE30820-2741-4FF6-9546-49962C69FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DDE30820-2741-4FF6-9546-49962C69FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DDE30820-2741-4FF6-9546-49962C69FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DDE30820-2741-4FF6-9546-49962C69FB70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8462CE87-4159-4A45-903F-405E04DCBA6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8462CE87-4159-4A45-903F-405E04DCBA6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8462CE87-4159-4A45-903F-405E04DCBA6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8462CE87-4159-4A45-903F-405E04DCBA6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
