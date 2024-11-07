@@ -1,0 +1,39 @@
+﻿@page "/categories"
+@using BlazorExpenseTraker.Model
+@using Interfaces
+@inject ICategoryService CategoryService
+<h1>Categorías</h1>
+
+<p>@Message</p>
+@if(categories == null){
+    <p><em>Loading...</em></p>
+}else{
+    <table class="table">
+        <thead>
+            <tr><th>Nombre</th></tr>
+        </thead>
+        <tbody>
+            @foreach(var category in categories){
+                <tr>
+                    <td>@category.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Category> categories { get; set;}
+    public string Message{get; set;}
+
+    protected async override Task OnInitializedAsync()
+    {
+        try{
+            categories = await CategoryService.GetAllCategories();
+        }catch(Exception ex)
+        {
+            Message = "Ha ocurrido un error: " + ex.Message;
+        }
+    }
+
+}

@@ -1,0 +1,58 @@
+﻿@page "/categorydetails"
+@using BlazorExpenseTraker.Model
+@using Interfaces
+@inject ICategoryService CategoryService
+
+<h1>CategoryDetails</h1>
+@if (category== null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <Antiforgery />
+    <EditForm Model="@category" OnValidSubmit="OnValidSubmit" FormName="categoryForm">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        <table class="table">
+            <tr>
+                <td>Nombre</td>
+
+                <td><InputText @bind-Value="category.Name" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"> <ValidationMessage For="@(() => category.Name)"/> </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Guardar">
+                    <input type="button" value="Cancelar">
+                </td>
+            </tr>
+        </table>
+
+    </EditForm>
+}
+@code {
+
+    private Category category = new Category();
+
+    protected async Task OnValidSubmit(){
+        try
+        {
+            Console.WriteLine("Invocando método OnValidSubmit: " + category.Name);
+            // Verifica que category.Name tenga un valor
+            if (string.IsNullOrEmpty(category.Name))
+            {
+                Console.WriteLine("El nombre de la categoría está vacío.");
+            }
+
+            await CategoryService.SaveCategory(category);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al guardar la categoría: {ex.Message}");
+        }
+    }
+
+}

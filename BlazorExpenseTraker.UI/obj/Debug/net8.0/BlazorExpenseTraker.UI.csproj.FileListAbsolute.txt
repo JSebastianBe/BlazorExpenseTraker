@@ -14,6 +14,8 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.AssemblyInfo.cs
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.csproj.CoreCompileInputs.cache
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.MvcApplicationPartsAssemblyInfo.cache
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.RazorAssemblyInfo.cache
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.RazorAssemblyInfo.cs
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorExpenseTraker.UI.sourcelink.json
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets.build.json
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets.development.json
@@ -22,8 +24,8 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorExpenseTraker.UI.props
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.BlazorExpenseTraker.UI.props
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets.pack.json
-/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
-/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/bundle/BlazorExpenseTraker.UI.styles.css
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/scopedcss/projectbundle/BlazorExpenseTraker.UI.bundle.scp.css
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/BlazorEx.FFDD2DC0.Up2Date
