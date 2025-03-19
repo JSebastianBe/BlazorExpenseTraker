@@ -19,7 +19,7 @@
                 <tr onclick="@(() => SelectedExpenseChange(expense.Id))">
                     <td style="@GetTextColor(@expense.Id)">@expense.Amount</td>
                     <td>@expense.Category.Name</td>
-                    <td>@expense.TransactionDate.ToString("dd-MM-yyyy")</td>
+                    <td>@expense.TransactionDate.ToString("dd/MM/yyyy")</td>
                 </tr>
             }
         </tbody>

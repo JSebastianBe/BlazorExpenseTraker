@@ -66,7 +66,7 @@ public class ExpenseRepository : IExpenseRepository
     {
         var db = dbConnection();
         var sql = @" UPDATE Expenses SET amount = @amount, categoryId = @categoryId, 
-                    trasnsactionDate = @transactionDate, expenseType = @expenseType WHERE id = @Id";
+                    transactionDate = @transactionDate, expenseType = @expenseType WHERE id = @Id";
 
         var resultado = await db.ExecuteAsync(sql, new {expense.Amount, expense.CategoryId, expense.TransactionDate, expense.ExpenseType, expense.Id});
 

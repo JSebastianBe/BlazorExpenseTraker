@@ -35,7 +35,6 @@ public class ExpenseService : IExpenseService
 
     public async Task SaveExpense(Expense expense)
     {
-        Console.WriteLine(JsonSerializer.Serialize(expense));
         var expenseJson = new StringContent(JsonSerializer.Serialize(expense),
             Encoding.UTF8, "application/json");
 

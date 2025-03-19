@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorExpenseTraker.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+507f29f3092b38cbcfbb4741c684173bf1d0a34e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49ed7afc8192bb76a326837dc787ef45b1892765")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorExpenseTraker.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorExpenseTraker.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
