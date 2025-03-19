@@ -16,6 +16,10 @@ builder.Services.AddHttpClient<ICategoryService, CategoryService>(
     client => {client.BaseAddress = new Uri("http://localhost:5041");}
 );
 
+builder.Services.AddHttpClient<IExpenseService, ExpenseService>(
+    client => {client.BaseAddress = new Uri("http://localhost:5041");}
+);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

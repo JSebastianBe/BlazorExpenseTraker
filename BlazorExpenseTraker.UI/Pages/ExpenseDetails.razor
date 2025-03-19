@@ -1,0 +1,74 @@
+﻿@using BlazorExpenseTraker.Model
+@using Interfaces
+@inject ICategoryService CategoryService
+@inject IExpenseService ExpenseService
+
+<EditForm Model="@expense" OnValidSubmit="SaveExpense">
+    <DataAnnotationsValidator/>
+    <table class="table">
+        <tr>
+            <td>Valor</td>
+            <td><InputNumber class="form-control col-sm-5" @bind-Value="@expense.Amount"></InputNumber>
+            <ValidationMessage For="@(() => expense.Amount)"/></td>
+        </tr>
+        <tr>
+            <td>Fecha de transacción</td>
+            <td><InputDate class="form-control col-sm-5" @bind-Value="@expense.TransactionDate"></InputDate>
+            <ValidationMessage For="@(() => expense.TransactionDate)"/></td>
+        </tr>
+        <tr>
+            <td>Categoría</td>
+            <td><InputSelect @bind-Value="@expense.CategoryId">
+            @foreach(Category item in categories)
+            {
+                <option value="@item.Id">@item.Name</option>
+            }
+            </InputSelect></td>
+        </tr>
+        <tr>
+            <td>Tipo de movimiento</td>
+            <td><InputSelect class="form-control col-sm-5" @bind-Value="@expense.ExpenseType" disabled="true">
+
+                <option value="@(ExpenseType.Ingreso)">Ingreso</option>
+                <option value="@(ExpenseType.Gasto)">Gasto</option>
+            </InputSelect></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" class="btn btn-success" value="Guardar">
+                <input type="submit" class="btn btn-secondary" value="Cancelar">
+            </td>
+        </tr>
+    </table>
+</EditForm>
+
+@code {
+
+    private Expense expense = new Expense();
+    //[CascadingParameter] protected Expense expense { get; set; }
+    private IEnumerable<Category> categories = new List<Category>();
+    [Parameter]
+    public ExpenseType ExpenseType { get; set; }
+
+    protected async override Task OnInitializedAsync(){
+        categories = await CategoryService.GetAllCategories();
+        if(expense.Id == 0)
+        {
+            expense.CategoryId = categories.FirstOrDefault().Id.ToString();
+            expense.ExpenseType = ExpenseType;
+        }
+    }
+
+    protected async Task SaveExpense(){
+        await ExpenseService.SaveExpense(expense);
+        ClearExpense();
+    }
+
+    private void ClearExpense(){
+        expense.Id = 0;
+        expense.Amount = 0;
+        expense.TransactionDate = DateTime.MinValue;
+        expense.CategoryId = categories.FirstOrDefault().Id.ToString();
+        expense.ExpenseType = ExpenseType;
+    }
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "amoYhAiUE3RcTXdq/4BieVZv4VnMUK7zgPOlVtOmwtc=",
+  "Hash": "A23w+Wa3g/RRLXZ+5Ow85HuHF7cFUeDOME0jWBcw1z4=",
   "Source": "BlazorExpenseTraker.UI",
   "BasePath": "_content/BlazorExpenseTraker.UI",
   "Mode": "Default",
@@ -300,6 +300,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/images/mas.png",
+      "SourceId": "BlazorExpenseTraker.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/",
+      "BasePath": "_content/BlazorExpenseTraker.UI",
+      "RelativePath": "images/mas.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/mas.png"
+    },
+    {
+      "Identity": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/images/menos.png",
+      "SourceId": "BlazorExpenseTraker.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/",
+      "BasePath": "_content/BlazorExpenseTraker.UI",
+      "RelativePath": "images/menos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/menos.png"
     }
   ]
 }

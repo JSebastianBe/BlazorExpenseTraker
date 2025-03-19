@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Components/TabControl.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Components/TabPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/Categories.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +40,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/CategoryDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcnlEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/ExpenseDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZURldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/ExpenseHistory.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZUhpc3RvcnkucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/ExpenseTracker.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhwZW5zZVRyYWNrZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Pages/Index.razor]

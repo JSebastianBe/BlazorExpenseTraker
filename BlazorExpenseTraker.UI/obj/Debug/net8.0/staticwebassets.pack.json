@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/images/mas.png",
+      "PackagePath": "staticwebassets/images/mas.png"
+    },
+    {
+      "Id": "/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/wwwroot/images/menos.png",
+      "PackagePath": "staticwebassets/images/menos.png"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.BlazorExpenseTraker.UI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

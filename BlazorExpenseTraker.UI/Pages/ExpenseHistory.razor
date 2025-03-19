@@ -1,0 +1,47 @@
+﻿@using Interfaces
+@using Model
+@inject IExpenseService ExpenseService
+<h1>Historial</h1>
+
+<p>@Message</p>
+
+@if (expenses == null){
+    <p><em>Cargando...</em></p>
+}else{
+    <table class="table table-bordered table-light table-hover">
+        <thead>
+            <th>Valor</th>
+            <th>Categoría</th>
+            <th>Fecha</th>
+        </thead>
+        <tbody>
+            @foreach(var expense in expenses){
+                <tr>
+                    <td style="@GetTextColor(@expense.Id)">@expense.Amount</td>
+                    <td>@expense.Category.Name</td>
+                    <td>@expense.TransactionDate.ToString("dd-MM-yyyy")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public IEnumerable<Expense> expenses {get; set;}
+    public string Message {get; set;}
+
+    protected override async Task OnParametersSetAsync()
+    {
+        try{
+            expenses = (await ExpenseService.GetAllExpenses());
+        }catch(Exception e){
+            Message = "Hubo un problema... " + e.Message;
+        }
+    }
+
+    protected string GetTextColor(int expenseId){
+        var exp = expenses.FirstOrDefault(e => e.Id == expenseId);
+
+        return exp.ExpenseType == ExpenseType.Ingreso ? "color:green" : "color:red";
+    }
+}

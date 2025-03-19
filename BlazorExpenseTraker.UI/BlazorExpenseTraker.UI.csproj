@@ -4,6 +4,10 @@
     <ProjectReference Include="..\BlazorExpenseTraker.Model\BlazorExpenseTraker.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot/images/" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>

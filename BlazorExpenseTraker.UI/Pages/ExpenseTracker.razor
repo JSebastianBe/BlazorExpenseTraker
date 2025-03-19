@@ -1,0 +1,24 @@
+﻿@page "/expensetracker"
+@using BlazorExpenseTraker.UI.Components
+<h3>Control de Gastos</h3>
+
+<TabControl>
+    <TabTitle>
+        <img src="images/@(context.ImageSource).png" style="width:30px; height:auto"/>
+        @context.Text
+    </TabTitle>
+
+    <ChildContent>
+        <TabPage Text="Gastos" ImageSource="menos">
+            <ExpenseDetails ExpenseType="@Model.ExpenseType.Gasto"></ExpenseDetails>
+        </TabPage>
+        <TabPage Text="Ingresos" ImageSource="mas">
+            <ExpenseDetails ExpenseType="@Model.ExpenseType.Ingreso"></ExpenseDetails>
+        </TabPage>
+    </ChildContent>
+</TabControl>
+
+<ExpenseHistory></ExpenseHistory>
+@code {
+
+}

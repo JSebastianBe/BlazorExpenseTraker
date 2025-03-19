@@ -10,6 +10,7 @@ IConfigurationRoot config = new ConfigurationBuilder()
     .Build();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
 var SqlConnectionConfiguration = new SqlConfiguration(config.GetConnectionString("SqlConnection"));
 builder.Services.AddSingleton(SqlConnectionConfiguration);
 // Add services to the container.
