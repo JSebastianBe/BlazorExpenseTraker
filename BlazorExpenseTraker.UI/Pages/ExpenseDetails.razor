@@ -43,14 +43,13 @@
 </EditForm>
 
 @code {
-
-    private Expense expense = new Expense();
-    //[CascadingParameter] protected Expense expense { get; set; }
+    [CascadingParameter] protected Expense expense { get; set; }
     private IEnumerable<Category> categories = new List<Category>();
     [Parameter]
     public ExpenseType ExpenseType { get; set; }
 
     protected async override Task OnInitializedAsync(){
+        
         categories = await CategoryService.GetAllCategories();
         if(expense.Id == 0)
         {

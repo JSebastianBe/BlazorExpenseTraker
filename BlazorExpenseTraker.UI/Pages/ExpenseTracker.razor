@@ -1,24 +1,41 @@
 ﻿@page "/expensetracker"
 @using BlazorExpenseTraker.UI.Components
+@using Model
+@implements IDisposable
+
 <h3>Control de Gastos</h3>
 
-<TabControl>
-    <TabTitle>
-        <img src="images/@(context.ImageSource).png" style="width:30px; height:auto"/>
-        @context.Text
-    </TabTitle>
+<CascadingValue Value="expense">
+    <TabControl>
+        <TabTitle>
+            <img src="images/@(context.ImageSource).png" style="width:30px; height:auto"/>
+            @context.Text
+        </TabTitle>
 
-    <ChildContent>
-        <TabPage Text="Gastos" ImageSource="menos">
-            <ExpenseDetails ExpenseType="@Model.ExpenseType.Gasto"></ExpenseDetails>
-        </TabPage>
-        <TabPage Text="Ingresos" ImageSource="mas">
-            <ExpenseDetails ExpenseType="@Model.ExpenseType.Ingreso"></ExpenseDetails>
-        </TabPage>
-    </ChildContent>
-</TabControl>
+        <ChildContent>
+            <TabPage Text="Gastos" ImageSource="menos">
+                <ExpenseDetails ExpenseType="@Model.ExpenseType.Gasto"></ExpenseDetails>
+            </TabPage>
+            <TabPage Text="Ingresos" ImageSource="mas">
+                <ExpenseDetails ExpenseType="@Model.ExpenseType.Ingreso"></ExpenseDetails>
+            </TabPage>
+        </ChildContent>
+    </TabControl>
 
-<ExpenseHistory></ExpenseHistory>
+    <ExpenseHistory></ExpenseHistory>
+
+</CascadingValue>
 @code {
+    public Expense expense;
 
+    protected override Task OnInitializedAsync(){
+        expense = new Expense();
+        expense.OnSelectedExpenseChanged += StateHasChanged;
+
+        return base.OnInitializedAsync();
+    }
+
+    public void Dispose(){
+        expense.OnSelectedExpenseChanged -= StateHasChanged;
+    }
 }

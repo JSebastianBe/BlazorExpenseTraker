@@ -18,4 +18,19 @@ public class Expense //: IValidatableObject
     public DateTime TransactionDate { get; set; }
     public ExpenseType ExpenseType { get; set; }
 
+    public event Action OnSelectedExpenseChanged;
+    public void SelectedExpenseChanged(Expense expense)
+    {
+        Id = expense.Id;
+        TransactionDate = expense.TransactionDate;
+        Amount = expense.Amount;
+        ExpenseType = expense.ExpenseType;
+        CategoryId = expense.CategoryId;
+        NotifySelectedExpenseChanged();
+    }
+    private void NotifySelectedExpenseChanged()
+    {
+        OnSelectedExpenseChanged.Invoke();
+    }
+
 }
