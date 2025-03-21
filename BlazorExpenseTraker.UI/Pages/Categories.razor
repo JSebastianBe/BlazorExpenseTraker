@@ -1,6 +1,4 @@
 ﻿@page "/categories"
-@using BlazorExpenseTraker.Model
-@using Interfaces
 @inject ICategoryService CategoryService
 <h1>Categorías</h1>
 
@@ -9,7 +7,7 @@
     <p><em>Loading...</em></p>
 }else{
 
-    <table>
+    <table class="table">
         <tbody>
             <tr>
                 <td colspan="2">
@@ -18,9 +16,13 @@
             </tr>
         </tbody>
     </table>
-    <table>
+    <table class="table">
         <thead>
-            <tr><th>Nombre</th></tr>
+            <tr>
+                <th>Nombre</th>
+                <th></th>
+                <th></th>
+            </tr>
         </thead>
         <tbody>
             @foreach(var category in categories){
