@@ -3,15 +3,9 @@ using BlazorExpenseTraker.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-IConfigurationRoot config = new ConfigurationBuilder()
-    .AddJsonFile("appsettings.json")
-    .AddEnvironmentVariables()
-    .Build();
-
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
-var SqlConnectionConfiguration = new SqlConfiguration(config.GetConnectionString("SqlConnection"));
+var SqlConnectionConfiguration = new SqlConfiguration(builder.Configuration.GetConnectionString("SqlConnection"));
 builder.Services.AddSingleton(SqlConnectionConfiguration);
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
