@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Components/PieChart.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QaWVDaGFydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/Components/TabControl.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYWJDb250cm9sLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

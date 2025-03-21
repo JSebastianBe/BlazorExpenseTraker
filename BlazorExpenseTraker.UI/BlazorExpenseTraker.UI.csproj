@@ -8,6 +8,10 @@
     <Folder Include="wwwroot/images/" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ChartJs.Blazor" Version="1.1.0" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>

@@ -15,6 +15,8 @@
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/BlazorExpenseTraker.UI.runtimeconfig.json
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/BlazorExpenseTraker.UI.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/BlazorExpenseTraker.UI.pdb
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/ChartJs.Blazor.dll
+/Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/BlazorExpenseTraker.Model.dll
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/bin/Debug/net8.0/BlazorExpenseTraker.Model.pdb
 /Users/jusebema/Documents/RepositoriosGit/Curso Blazor/BlazorExpenseTraker/BlazorExpenseTraker.UI/obj/Debug/net8.0/staticwebassets.build.json
